@@ -22,7 +22,7 @@ document.body.addEventListener('keydown', e => {
     if (result) {
         let instrumentAudioFile2 = getInstrument(e.key);
         new Audio(`./sounds/${instrumentAudioFile2}`).play();
-        alert('Button event was triggered.');
+        
     }
     
 })
